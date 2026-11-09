@@ -1,7 +1,7 @@
 # VWAP Mean Reversion — close-out (2026-11-01)
 
 > **Portfolio copy** of the project's close-out. Paths refer to the private working repository (533 commits), which is not public.
-> Details of specific personal trading accounts and the copy-trading setup have been removed; the results and lessons are unchanged.
+> Account-specific operational details have been removed; the results and lessons are unchanged.
 
 **Closed on 2026-11-01: the edge is not real.** Nothing went live. No demo, no evaluation, no money at risk.
 

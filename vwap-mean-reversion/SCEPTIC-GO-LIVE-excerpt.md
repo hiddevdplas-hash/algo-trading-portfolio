@@ -1,9 +1,8 @@
 # oos-sceptic — go-live gate, whole VWAP set (2026-11-01) — excerpt
 
 > **Portfolio excerpt.** The report of the independent AI reviewer (`oos-sceptic`, a Claude Code agent that starts cold and has no stake in
-> anything passing) at the go-live decision. The original was saved unedited in the private repository. **Removed here:** objection 3 and
-> objection 6 (they concern specific personal prop-firm accounts and a copy-trading setup), the per-account deployment section, and a local
-> file path. Everything else is as the agent returned it. The project was closed on this report.
+> anything passing) at the go-live decision. The original was saved unedited in the private repository. **Removed here:** objections 3 and
+> 6 and the deployment section (account-specific operational details), and a local file path. Everything else is as the agent returned it. The project was closed on this report.
 
 Question put to it: deploy the funded and evaluation sets, or stop this family and restart research (ORB, momentum).
 
@@ -58,7 +57,7 @@ All from `tools/report_stats.py --json` on every v3 OOS report I could find: 147
   - R/month at $1k risk is 0.08 and 0.19.
 - **Not cleared** by any check that does not use OOS.
 
-*(Objection 3, on specific personal accounts, removed.)*
+*(Objection 3 removed: account-specific.)*
 
 **4. The planning case (half the OOS edge) is not justified; at zero edge level 9 misses the user's own targets.**
 - RISK-SHEET's zero-edge rows: evaluation fail 68% (target 30–40%), funded breach 44% a year (target 20–25%).
@@ -70,7 +69,7 @@ All from `tools/report_stats.py --json` on every v3 OOS report I could find: 147
 - Kill switches are not written (ROADMAP "Before the first strategy goes live"; RISK-SHEET last line).
 - Step 11 can still drop files: USTEC at a 20-point spread, US30 at 40, the FX crosses at IC × 1.5.
 
-*(Objection 6, on a copy-trading setup, removed.)*
+*(Objection 6 removed: account-specific.)*
 
 **7. Half of the batch passers pass only because of the 2026-10-31 rule change, including 2 of the 5 funded files.**
 - These passers have a top trade above 30% of net, so they would fail the original rule:
@@ -102,7 +101,7 @@ All from `tools/report_stats.py --json` on every v3 OOS report I could find: 147
 
 **Clean:** no Python export after 2023 was found; pre-registration commit times come before the OOS file times per the LOG intake lines; the pass verdicts recompute correctly (XAUUSD N12 and AUDJPY FT1 N12 re-checked: PASS under `--rules 2026-10-31`).
 
-*(Section "Which files, under what conditions", on deployment per specific account, removed.)*
+*(Section "Which files, under what conditions" removed: account-specific.)*
 
 ## What the in-sample period is worth for the Ergodic stress test
 - **For edge or pass / breach odds: about nothing.** 2018–2023 is the selection period, and objection 1 shows it has zero to negative predictive value.
