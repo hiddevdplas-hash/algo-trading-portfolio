@@ -6,6 +6,7 @@ insisting that every claim survives a test designed to break it.
 
 This repository is a curated portfolio. The working repositories are private: they contain personal finances, account details and
 third-party material. What's here is real code and real documents from those projects, with personal details removed where marked.
+The code is here to read; running it needs the market-data exports, which aren't included.
 
 ## The short story
 1. **VWAP Mean Reversion (Sep–Nov 2026, 533 commits):** a portfolio of mean-reversion strategies on 26 markets.
