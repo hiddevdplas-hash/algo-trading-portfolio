@@ -24,6 +24,8 @@ Recompute numbers yourself from the ledger and `runs/`, with your own scripts in
    - could the strategy see the future (look-ahead review, bar timing)?
    - was any data after 2024-12-31 touched before the open?
    - is the idea in a seen family (DESIGN §3.7)?
+   - **locked period seen** (DESIGN A1): did any source show results after 2024? Then judge the open on its unseen remainder and say how
+     many trades that holds. Could the idea's symbols, direction or parameters reflect knowledge of markets after 2024?
 2. **Multiplicity:**
    - how many tests does the ledger hold for this idea, its family and the whole project?
    - is the count-adjusted bar computed at the right effective count?

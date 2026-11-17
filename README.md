@@ -17,12 +17,21 @@ The code is here to read; running it needs the market-data exports, which aren't
      (correlation −0.13). The process caught this **before any money was at risk**, and I closed the project.
 2. **RoboQuant templates (Nov 2026):** ten public strategy templates, converted to cTrader and tested exactly as published on years the vendor
    never showed. **0 of 10 passed.** The code isn't included, because the vendor's terms forbid redistributing it.
-3. **Edge Research (Nov 2026 →):** what the first two projects taught me, turned into a stricter, mostly automated research pipeline.
-   - Several AI sessions generate ideas.
-   - A generic engine tests them on 12 years of tick data.
-   - Every test is counted in a ledger.
-   - Random strategies are run through the same pipeline to measure how often noise "passes".
-   - A locked recent period is opened only once per candidate.
+3. **Edge Research (Nov 2026 →, 297 commits in 11 days):** what the first two projects taught me, turned into a stricter, mostly automated
+   research pipeline, run by several AI sessions with fixed roles.
+   - **The engine:** a generic Python tick engine on 10 years of data (42 markets, 8.3 billion ticks). Its fills match cTrader **trade for
+     trade on 5 of 5 reference strategies** (1,009 trades; four at 100%, one at 99.3%). The last differences came down to how cTrader stores
+     stop prices as raw doubles, and that rule is now in the engine. 102 automated tests.
+   - **The noise check, done before any real idea was tested:** 1,000 random strategies went through the full pipeline and **none reached
+     the final gate**. Strategies with a planted edge of +0.05 R per trade after costs reached it 36% of the time, and +0.10 R 55% of the time.
+     So the bars stop noise without stopping everything.
+   - **Ideas at scale:** three AI idea lanes (cloud routines and scheduled local runs) write idea cards from first principles, academic
+     papers and public scripts. Each card becomes a strategy module, gets an automatic look-ahead code review, and runs through the
+     engine into an append-only ledger. So far: **65 idea cards, 60 strategy modules, 53 real ideas screened: 1 green, 10 amber, 42 red.**
+     That is a normal hit rate for honest testing, and every test counts toward the bar the next one has to clear.
+   - **Governance:** a gatekeeper session merges the lanes' work, and only it can advance an idea. The rules changed 16 times, each time by
+     a dated addendum written before the results it governs. An independent reviewer agent blocked three drafts until they were fixed.
+   - **A news calendar built from official sources:** 4,336 central-bank and macro events from 2014 to 2024, for the prop-firm news rules.
 
 ## What's in here
 | folder | what it shows |
@@ -32,11 +41,17 @@ The code is here to read; running it needs the market-data exports, which aren't
 | [`vwap-mean-reversion/engine/`](vwap-mean-reversion/engine/) | the Python / numba backtest engine, the cTrader data exporter (C#), and the documents that prove it matches the platform (`REPORT.md`, `RULES.md`, `REFEREES.md`) |
 | [`vwap-mean-reversion/cbot/`](vwap-mean-reversion/cbot/) | the trading bot itself (C#, cTrader): sizing, New York time and DST handling, a news filter, restart recovery |
 | [`vwap-mean-reversion/tools/report_stats.py`](vwap-mean-reversion/tools/report_stats.py) | report parser, statistics, Monte Carlo drawdown limits, out-of-sample pass check |
-| [`edge-research/DESIGN.md`](edge-research/DESIGN.md) | the full design of the new pipeline: data, costs, news rules for prop firms, test counting, walk-forward, the locked period |
-| [`edge-research/agents/`](edge-research/agents/) | the two reviewer agents: `oos-sceptic` (red-teams every candidate) and `lookahead-reviewer` (checks code for future-data leaks) |
+| [`edge-research/DESIGN.md`](edge-research/DESIGN.md) | the full design of the new pipeline (data, costs, news rules for prop firms, test counting, walk-forward, the locked period), with its 16 dated addenda |
+| [`edge-research/AI-RULES.md`](edge-research/AI-RULES.md), [`edge-research/OPERATIONS.md`](edge-research/OPERATIONS.md) | the standing rules every AI session reads first, and how the sessions, cloud routines, models and sources are run day to day |
 | [`edge-research/lanes/`](edge-research/lanes/) | the briefs for the parallel AI sessions: idea lanes, a gatekeeper, an engine owner |
-| [`edge-research/data-checks/`](edge-research/data-checks/), [`edge-research/tools/`](edge-research/tools/) | the quality check of 193 GB of tick data (42 markets, 2014–2026), and the broker-vs-prop-firm feed comparison |
-| [`edge-research/ideas/`](edge-research/ideas/), [`edge-research/ledger/`](edge-research/ledger/) | the idea card every strategy starts from, and the test-ledger format |
+| [`edge-research/agents/`](edge-research/agents/), [`edge-research/gatekeeper/sceptic/`](edge-research/gatekeeper/sceptic/), [`edge-research/reviews/`](edge-research/reviews/) | the two reviewer agents, their reports exactly as returned (including the BLOCKs), and two look-ahead code reviews (one PASS, one FAIL) |
+| [`edge-research/engine/`](edge-research/engine/), [`edge-research/tests/`](edge-research/tests/) | the tick engine: kernel, costs, news rules, runner, pipeline, random-strategy check, and its 102 tests |
+| [`edge-research/data-checks/referees/REFEREES-RESULT.md`](edge-research/data-checks/referees/REFEREES-RESULT.md), [`edge-research/cTrader-Bots/`](edge-research/cTrader-Bots/) | the engine-vs-cTrader comparison and the five reference cBots (C#) |
+| [`edge-research/null/`](edge-research/null/) | the random-strategy calibration: 1,000 random strategies and 200 with a planted edge |
+| [`edge-research/ideas/`](edge-research/ideas/), [`edge-research/strategies/`](edge-research/strategies/) | the idea-card template, five example cards, and all 60 strategy modules the lanes wrote |
+| [`edge-research/gatekeeper/batches/`](edge-research/gatekeeper/batches/), [`edge-research/ledger/`](edge-research/ledger/) | the gatekeeper's screen reports, the ledger format, and 13 real ledger rows |
+| [`edge-research/news/`](edge-research/news/), [`edge-research/mining/SPEC.md`](edge-research/mining/SPEC.md) | the news calendar from official sources, and the spec for the next step: one fixed sweep of 50,000 generated rules, judged against its own noise bar |
+| [`edge-research/data-checks/`](edge-research/data-checks/), [`edge-research/tools/`](edge-research/tools/) | the quality check of 193 GB of tick data (42 markets, 2014–2026), the broker-vs-prop-firm feed comparison, and data builders |
 
 ## How I work with AI
 - **Rules first, results second.** Every project has a written rulebook for the AI. Pass bars are fixed before results exist, and changed
@@ -47,11 +62,13 @@ The code is here to read; running it needs the market-data exports, which aren't
   difference was explained.
 - **Parallel sessions with clear roles.** In Edge Research, idea sessions can't grade their own work: only a gatekeeper session can, and
   only through the ledger.
+- **Automation with checkpoints.** The idea lanes run on schedules, some in the cloud and some on my Mac. Every evening, one session
+  checks their branches, has a second model spot-check the citations, merges what passes, and writes a digest I read on my phone.
 - **Honest failure.** Two projects ended without a tradable strategy, and the documents say so plainly. Finding that out cheaply is the point
   of the process.
 
 ## Stack
-Python (numpy, numba, pandas) · C# for cTrader cBots · cTrader · Claude Code (agents, sub-agents, parallel sessions) · Git / GitHub · TradeZella and Ergodic Labs for
+Python (numpy, numba, pandas) · C# for cTrader cBots · cTrader · Claude Code (agents, sub-agents, parallel sessions, cloud routines, scheduled tasks) · Notion · Git / GitHub · TradeZella and Ergodic Labs for
 journalling and stress tests.
 
 ---

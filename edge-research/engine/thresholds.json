@@ -1,0 +1,95 @@
+{
+ "_about": "Pipeline bars (DESIGN \u00a76.3-6.7, \u00a76.6a, A4, A9, A10). FROZEN by DESIGN A10 (2026-11-14, user: 'Yes, freeze') after the random-strategy check (engine 1b88e14daa9f, report 673f1d7, grid factor 73bd17c), before any real idea has a result. DESIGN A11 (2026-11-15, user: 'Yes, all three', after the sceptic's gate-1 BLOCK) made amber before costs (r_mid), added the hold-time safety bar, set the luck bar's mu0 to 0 and scaled its sigma for serial correlation. They change only by a later dated addendum, never for an idea whose result is seen. Part of the engine hash.",
+ "status": "frozen (DESIGN A10, 2026-11-14; A11, 2026-11-15)",
+ "screen": {
+  "green_net_r_per_trade": 0.05,
+  "green_t": 2.0,
+  "green_min_trades": 150,
+  "amber_mid_t": 1.5,
+  "amber_source": "DESIGN A11.1: t >= 1.5 on R before costs (r_mid; synthetics r_mid + planted edge); the slice route stays after costs",
+  "recent_from": "2021-01"
+ },
+ "walk_forward": {
+  "train_months": 24,
+  "test_months": 3,
+  "step_months": 3,
+  "first_test": "2016-11",
+  "last_month": "2024-12",
+  "score_modes": [
+   "M0",
+   "M2",
+   "M3"
+  ],
+  "min_trades": 200,
+  "profit_factor": 1.15,
+  "years_positive": 0.6,
+  "block_months": 12,
+  "regime_min_trades": 200,
+  "hold_short_minutes": 2,
+  "hold_short_max_share": 0.1,
+  "hold_source": "DESIGN \u00a74.2, A11.2: > 10% of trades held under 2 min fails G1 in every news mode (a safety bar)"
+ },
+ "firms": {
+  "FTMO": {
+   "max_loss_pct": 10.0,
+   "funded_risk_pct": 0.75,
+   "dd_share": 0.7
+  }
+ },
+ "firm_modes": {
+  "M1": [
+   "Fintokei"
+  ],
+  "M2": [
+   "FundingPips",
+   "BrightFunded",
+   "Aqua",
+   "FTMO evaluation",
+   "Instant Funding evaluation"
+  ],
+  "M3": [
+   "FTMO funded",
+   "Instant Funding funded"
+  ]
+ },
+ "stress": {
+  "noise_keep": 0.75,
+  "cost_profit_factor": 1.05,
+  "neighbour_keep": 0.7,
+  "side_min_r_per_trade": -0.05,
+  "fx_quarantine": [
+   "2015-05",
+   "2015-07"
+  ],
+  "without_best_symbol": "net R after costs > 0 without the best symbol (>= 2 declared symbols; DESIGN A4)",
+  "noise_shift": "+1 bar (later only; DESIGN A4.4)"
+ },
+ "near_miss": {
+  "profit_factor": 1.12,
+  "years_positive": 0.5,
+  "min_trades": 170,
+  "noise_keep": 0.7,
+  "cost_profit_factor": 1.03,
+  "neighbour_keep": 0.65
+ },
+ "null": {
+  "target_share": 0.005,
+  "regime_dates": [
+   "2018-02",
+   "2020-03",
+   "2022-03",
+   "2022-05"
+  ],
+  "regime_dates_source": "DESIGN A3 (user, 2026-11-12)",
+  "target_share_source": "DESIGN A10.2: noise reference for the weekly batch test (\u00a77)"
+ },
+ "luck_bar": {
+  "mu0": 0.0,
+  "sigma0": 0.354,
+  "years0": 8.17,
+  "quantile": 0.95,
+  "rho_default": 0.688,
+  "source": "DESIGN A10.3-4: unseen daily Sharpe at mid prices of the 1,000 random strategies (zero edge); sigma0 = 1/sqrt(8.17 unseen years); rho_default = the null's stop / exit grids (tools/nullstats/grid_factor.py); mu0 = 0 (A11.4, was -0.039)",
+  "serial": "DESIGN A11.4: sigma = sigma0 * sqrt(years0 / unseen years) * max(1, sqrt(VR)); VR = Newey-West (Bartlett, lag floor(4 (T/100)^(2/9))) long-run variance of the stitched unseen daily net R / its plain variance"
+ }
+}

@@ -1,0 +1,599 @@
+# GBP high-impact events 2014-11-01 .. 2024-12-31, LOCAL date/time + IANA zone. Built by news/raw/build_usd_eur_gbp.py. Types: news/types-usd-eur-gbp.csv. Report: news/REPORT-usd-eur-gbp.md
+# UNSCHEDULED (left out, DESIGN 3.6): 2020-03-11 07:00 London BoE emergency cut to 0.25% (special MPC); 2020-03-19 BoE emergency cut to 0.1% (special MPC). 2016-06-24 08:00 Carney post-referendum statement. Not known in advance.
+# UK_BUDGET: Autumn Statements (2015-11-25, 2016-11-23, 2022-11-17, 2023-11-22), Spring Statements (2018-03-13, 2019-03-13, 2022-03-23) and the 2022-09-23 Growth Plan are not Budgets (FF names only the Budget red); not included.
+date,time_local,tz,ccy,type_id,end_time_local,end_status,source
+2014-11-06,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/news/2014/november/mpc-november-2014 (announcement 12:00 London)
+2014-11-12,09:30,Europe/London,GBP,UK_LABOUR,,n/a,gov.uk statistics announcement (labour market statistics)
+2014-11-12,10:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,BoE Inflation Report November 2014; 10:30 publication + press conference; date not read on an official page
+2014-11-17,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2014/the-future-of-financial-reform | The future of financial reform - speech by Mark Carney | Given at the 2014 Monetary Authority of Singapore Lecture, Singapore"
+2014-11-18,09:30,Europe/London,GBP,UK_CPI,,n/a,gov.uk statistics announcement (Oct 2014); 09:30 (pre-2020 ONS release time)
+2014-11-19,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,"bankofengland.co.uk/news/2014/november/mpc-november-2014 (""minutes ... 9.30am on Wednesday 19 November"")"
+2014-12-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/news/2014/december/mpc-december-2014 (announcement 12:00 London)
+2014-12-16,09:30,Europe/London,GBP,UK_CPI,,n/a,gov.uk statistics announcement (Nov 2014); 09:30 (pre-2020 ONS release time)
+2014-12-17,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/news/2014/december/mpc-december-2014
+2014-12-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,gov.uk statistics announcement (labour market statistics)
+2015-01-08,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/news/2015/january/mpc-january-2015 (announcement 12:00 London)
+2015-01-13,09:30,Europe/London,GBP,UK_CPI,,n/a,gov.uk statistics announcement (Dec 2014); 09:30 (pre-2020 ONS release time)
+2015-01-21,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/news/2015/january/mpc-january-2015
+2015-01-21,09:30,Europe/London,GBP,UK_LABOUR,,n/a,gov.uk statistics announcement (labour market statistics)
+2015-01-27,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2015-01-28,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/fortune-favours-the-bold | Fortune favours the bold - speech by Mark Carney | Lecture to honour the memory of The Honourable James Michael Flaherty, P.C., Ive"
+2015-02-05,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/news/2015/february/mpc-february-2015 (announcement 12:00 London)
+2015-02-12,10:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,BoE Inflation Report February 2015; 10:30 publication + press conference; date not read on an official page
+2015-02-17,09:30,Europe/London,GBP,UK_CPI,,n/a,gov.uk statistics announcement (Jan 2015); 09:30 (pre-2020 ONS release time)
+2015-02-18,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/news/2015/february/mpc-february-2015
+2015-02-18,09:30,Europe/London,GBP,UK_LABOUR,,n/a,gov.uk statistics announcement (labour market statistics)
+2015-02-25,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/one-bank-research-agenda-launch-conference | One Bank Research Agenda: Launch Conference - opening remarks by Mark Carney | Opening remarks at the One Bank Research Agenda conference.
+2015-03-05,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-03-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/writing-the-path-back-to-target | Writing the path back to target - speech by Mark Carney | Given at the Advanced Manufacturing Research Centre, Sheffield"
+2015-03-18,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015
+2015-03-18,09:30,Europe/London,GBP,UK_LABOUR,,n/a,gov.uk statistics announcement (labour market statistics)
+2015-03-18,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/budget-2015-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30); documents published 13:31 (approx. end of statement)
+2015-03-24,09:30,Europe/London,GBP,UK_CPI,,n/a,gov.uk statistics announcement (Feb 2015); 09:30 (pre-2020 ONS release time)
+2015-04-09,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-04-14,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Mar 2015); 09:30 (pre-2020 ONS release time)
+2015-04-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-04-22,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015
+2015-04-28,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2015-05-11,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-05-13,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-05-13,10:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,BoE Inflation Report May 2015 (BoE documentation page summary said 15 May: VERIFY); 10:30 publication + press conference; date not read on an official page
+2015-05-19,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Apr 2015); 09:30 (pre-2020 ONS release time)
+2015-05-20,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015
+2015-06-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-06-10,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/building-real-markets-for-the-good-of-the-people | Building real markets for the good of the people - speech by Mark Carney | Speech given at the Lord Mayor's Banquet for Bankers and Merchants of the City o
+2015-06-16,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (May 2015); 09:30 (pre-2020 ONS release time)
+2015-06-17,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015
+2015-06-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-06-26,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/inclusive-capitalism-conference-in-conversation-with-governor-mark-carney | Inclusive Capitalism Conference: In Conversation with Governor Mark Carney | Given at Mansion House, London"
+2015-07-08,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/summer-budget-2015 (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30)
+2015-07-09,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-07-14,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jun 2015); 09:30 (pre-2020 ONS release time)
+2015-07-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-07-16,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/from-lincoln-to-lothbury-magna-carta-and-the-boe | From Lincoln to Lothbury: Magna Carta and the Bank of England - speech by Mark Carney | A lecture at Lincoln Cathedral as part of the Lincoln Lectures 2015
+2015-07-22,09:30,Europe/London,GBP,BOE_MPC_MINUTES,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015
+2015-07-28,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2015-08-06,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-08-06,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (Inflation Report date); press conference 12:30
+2015-08-12,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-08-18,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jul 2015); 09:30 (pre-2020 ONS release time)
+2015-08-29,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/inflation-in-a-globalised-world | Inflation in a globalised world - remarks by Mark Carney | Remarks given at the Economic Policy Symposium hosted by the Federal Reserve Ban
+2015-09-10,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-09-15,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Aug 2015); 09:30 (pre-2020 ONS release time)
+2015-09-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-09-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/three-truths-for-finance | Three Truths for Finance - speech by Mark Carney | Remarks given at the Harvard Club UK Southwark Cathedral dinner, London"
+2015-09-29,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/breaking-the-tragedy-of-the-horizon-climate-change-and-financial-stability | Breaking the tragedy of the horizon - climate change and financial stability - speech by M | Speech given at Lloyd's of London.
+2015-10-08,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-10-13,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Sep 2015); 09:30 (pre-2020 ONS release time)
+2015-10-14,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-10-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/the-european-union-monetary-and-financial-stability-and-the-boe | The European Union, monetary and financial stability, and the Bank of England - speech by  | Given at St Peter’s College, Cairncross Lecture, Oxford"
+2015-10-27,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2015-11-05,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-11-05,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (Inflation Report date); press conference 12:30
+2015-11-11,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/closing-remarks-to-the-boe-open-forum | Closing remarks to the Bank of England Open Forum - speech by Mark Carney | Given at the Bank of England Open Forum, Guildhall, London. ;; bankofengland.co.uk/speech/2015/introduction-to-the-open-forum | Open Forum 2015 - Introduction from Mark Carney | Given at the Bank of England Open Forum, Guildhall, London."
+2015-11-11,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Oct 2015); 09:30 (pre-2020 ONS release time)
+2015-11-11,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2015-12-07,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2015/opening-statement-at-the-european-parliaments-econ-committee | Opening statement at the European Parliament's ECON Committee - speech by Mark Carney | Given at European Parliament’s ECON Committee, Brussels."
+2015-12-10,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2015 (announcement 12:00 London)
+2015-12-15,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Nov 2015); 09:30 (pre-2020 ONS release time)
+2015-12-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-01-14,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-01-19,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/the-turn-of-the-year | The turn of the year - speech by Mark Carney | Speech given at Peston Lecture, Queen Mary University of London."
+2016-01-19,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Dec 2015); 09:30 (pre-2020 ONS release time)
+2016-01-20,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-01-28,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2016-02-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-02-04,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (Inflation Report date); press conference 12:30
+2016-02-16,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jan 2016); 09:30 (pre-2020 ONS release time)
+2016-02-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-02-26,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/redeeming-an-unforgiving-world | Redeeming an unforgiving world - speech by Mark Carney | Speech given at the 8th Annual Institute of International Finance G20 Conference
+2016-03-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-03-16,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/budget-2016-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30)
+2016-03-17,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-03-22,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/opening-remarks-by-mark-carney-to-the-empowering-productivity-harnessing-the-talents-of-women-in | Opening remarks by Mark Carney to the 'Empowering productivity: harnessing the talents of  | Given at the Gadhia Review launch, Bank of England."
+2016-03-22,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Feb 2016); 09:30 (pre-2020 ONS release time)
+2016-04-12,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Mar 2016); 09:30 (pre-2020 ONS release time)
+2016-04-14,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-04-20,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-04-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/the-sustainable-development-goal-imperative | The Sustainable Development Goal imperative - remarks by Mark Carney | Speech given at the United Nations General Assembly, High-level Thematic Debate "
+2016-04-27,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2016-05-12,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-05-12,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (Inflation Report date); press conference 12:30
+2016-05-17,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Apr 2016); 09:30 (pre-2020 ONS release time)
+2016-05-18,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-06-14,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (May 2016); 09:30 (pre-2020 ONS release time)
+2016-06-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-06-16,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-06-17,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/enabling-the-fintech-transformation-revolution-restoration-or-reformation | Enabling the FinTech transformation: Revolution, Restoration, or Reformation? - speech by  | ​Speech given at Lord Mayor’s Banquet for Bankers and Merchants of the City of L"
+2016-06-30,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/uncertainty-the-economy-and-policy | Uncertainty, the economy and policy - speech by Mark Carney | Given at the Court Room, Bank of England."
+2016-07-14,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-07-19,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jun 2016); 09:30 (pre-2020 ONS release time)
+2016-07-20,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-07-27,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2016-08-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-08-04,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (Inflation Report date); press conference 12:30
+2016-08-16,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jul 2016); 09:30 (pre-2020 ONS release time)
+2016-08-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-09-13,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Aug 2016); 09:30 (pre-2020 ONS release time)
+2016-09-14,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-09-15,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-09-22,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/resolving-the-climate-paradox | Resolving the climate paradox - speech by Mark Carney | Speech given at the Arthur Burns Memorial Lecture, Berlin."
+2016-10-18,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Sep 2016); 09:30 (pre-2020 ONS release time)
+2016-10-19,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-10-27,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2016-11-03,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2016-11-03,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (Inflation Report date); press conference 12:30
+2016-11-15,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Oct 2016); 09:30 (pre-2020 ONS release time)
+2016-11-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-12-05,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/the-spectre-of-monetarism | The Spectre of Monetarism - speech by Mark Carney | Speech given at Roscoe Lecture, Liverpool John Moores University."
+2016-12-13,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Nov 2016); 09:30 (pre-2020 ONS release time)
+2016-12-14,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2016/remarks-on-the-launch-of-the-recommendations-of-the-task-force-on-climate-related-financial | Remarks on the launch of the Recommendations of the Task Force on Climate-related Financia | Remarks delivered at the Tate Modern.
+2016-12-14,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2016-12-15,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2016 (announcement 12:00 London)
+2017-01-16,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/lambda | Lambda - speech by Mark Carney | Given at London School of Economics
+2017-01-17,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Dec 2016); 09:30 (pre-2020 ONS release time)
+2017-01-18,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-01-25,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/the-promise-of-fintech-something-new-under-the-sun | The Promise of FinTech - Something New Under the Sun? - speech by Mark Carney | Given at the Deutsche Bundesbank G20 conference on “Digitising finance, financia"
+2017-01-26,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2017-02-02,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-02-02,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (Inflation Report date); press conference 12:30
+2017-02-09,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/reflecting-diversity-choosing-inclusion | Reflecting diversity, choosing inclusion - speech by Mark Carney | Given at the Bank of England"
+2017-02-14,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jan 2017); 09:30 (pre-2020 ONS release time)
+2017-02-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-03-08,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/spring-budget-2017-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30); documents published 13:31 (approx. end of statement)
+2017-03-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-03-16,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-03-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/banking-standards-board-worthy-of-trust-law-ethics-and-culture-in-banking | Banking Standards Board: Worthy of Trust? Law, ethics and culture in banking - opening rem | Event chaired by Dame Colette Bowe, Chairman of the Banking Standards Board – Ma"
+2017-03-21,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Feb 2017); 09:30 (pre-2020 ONS release time)
+2017-04-07,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/the-high-road-to-a-responsible-open-financial-system | The high road to a responsible, open financial system - speech by Mark Carney | Speech given at Thomson Reuters."
+2017-04-11,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Mar 2017); 09:30 (pre-2020 ONS release time)
+2017-04-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/building-the-infrastructure-to-realise-fintechs-promise | Building the Infrastructure to Realise FinTech's Promise - speech by Mark Carney | Given at the International FinTech Conference 2017, Old Billingsgate."
+2017-04-12,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-04-20,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/what-a-difference-a-decade-makes | What a Difference a Decade Makes - speech by Mark Carney | Remarks given at the Institute of International Finance’s Washington Policy Summ
+2017-04-28,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2017-05-11,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-05-11,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (Inflation Report date); press conference 12:30
+2017-05-16,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Apr 2017); 09:30 (pre-2020 ONS release time)
+2017-05-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-06-13,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (May 2017); 09:30 (pre-2020 ONS release time)
+2017-06-14,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-06-15,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-06-20,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/a-fine-balance | A Fine Balance - speech by Mark Carney | Given at the Mansion House, London."
+2017-06-28,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/policy-panel-investment-and-growth-in-advanced-economies | Policy Panel: Investment and growth in advanced economies - remarks by Mark Carney | Given at the 2017 ECB Forum on Central Banking, Sintra."
+2017-07-12,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-07-18,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jun 2017); 09:30 (pre-2020 ONS release time)
+2017-07-26,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2017-08-03,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-08-03,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (Inflation Report date); press conference 12:30
+2017-08-15,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Jul 2017); 09:30 (pre-2020 ONS release time)
+2017-08-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-09-12,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Aug 2017); 09:30 (pre-2020 ONS release time)
+2017-09-13,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-09-14,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-09-18,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/de-globalisation-and-inflation | [De]Globalisation and inflation - speech by Mark Carney | Given at the 2017 IMF Michel Camdessus Central Banking Lecture.
+2017-09-28,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/opening-remarks-at-the-boe-independence-20-years-on-conference | Opening remarks to the Bank of England ‘Independence – 20 years on’ Conference - remarks b | Given at the Bank of England ‘Independence – 20 years on’ Conference, Fishmonger"
+2017-10-17,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Sep 2017); 09:30 (pre-2020 ONS release time)
+2017-10-18,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-10-25,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2017-11-02,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2017-11-02,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (Inflation Report date); press conference 12:30
+2017-11-14,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Oct 2017); 09:30 (pre-2020 ONS release time)
+2017-11-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-11-16,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/future-forum-2017-remarks-by-mark-carney | Future Forum 2017 - opening remarks by Mark Carney | Given at the Future Forum 2017, St George's Hall, Liverpool"
+2017-11-22,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/autumn-budget-2017-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30)
+2017-11-29,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2017/mark-carney-speech-at-the-fmsb | Turning back the tide - speech by Mark Carney | Given at the FICC Market Standard Board ""Two years on from the Fair and Effectiv"
+2017-12-12,09:30,Europe/London,GBP,UK_CPI,,n/a,ons.gov.uk consumerpriceinflation/previousreleases (Nov 2017); 09:30 (pre-2020 ONS release time)
+2017-12-13,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2017-12-14,12:00,Europe/London,GBP,BOE_RATE,,n/a,bankofengland.co.uk/monetary-policy/mpc-documentation/2017 (announcement 12:00 London)
+2018-01-16,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-01-24,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-01-26,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2018-02-08,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-02-08,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2018-02-13,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-02-19,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-speech-at-regents-university-london | Reflections on Leadership in a Disruptive Age - speech by Mark Carney | Given at Regent’s University London.
+2018-02-21,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-03-02,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-speech-to-the-inaugural-scottish-economics-conference | The Future of Money - speech by Mark Carney | Given to the Inaugural Scottish Economics Conference
+2018-03-20,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-03-21,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-03-22,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-04-06,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-speech-at-international-climate-risk-conference-for-supervisors | A Transition in Thinking and Action - speech by Mark Carney | Given at International Climate Risk Conference for Supervisors, De Nederlandsche"
+2018-04-13,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-speech-at-the-public-policy-forum-toronto | Slides from Mark Carney's speech at the Public Policy Forum on “Canada Growth Summit 3: Go | The Future of Work
+2018-04-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-04-18,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-04-27,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-launch-of-the-boe-econome-programme | Launch of the Bank of England EconoME programme - opening remarks by Mark Carney | Given in the Court Room, Bank of England"
+2018-04-27,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk grossdomesticproductpreliminaryestimate/previousreleases (quarterly preliminary GDP; monthly GDP did not exist before Jul 2018)
+2018-05-10,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-05-10,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2018-05-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-05-23,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-05-24,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-boe-markets-forum | Staying Connected - speech by Mark Carney | Given at the Markets Forum 2018, Bloomberg Headquarters ;; bankofengland.co.uk/speech/2018/mark-carney-society-of-professional-economists-annual-dinner | Guidance, Contingencies and Brexit - speech by Mark Carney | Given at the Society of Professional Economists, London"
+2018-06-12,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-06-13,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-06-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-speech-at-the-lord-mayors-bankers-and-merchants-dinner-mansion-house | New Economy, New Finance, New Bank - speech by Mark Carney | Given at the Mansion House, London"
+2018-06-21,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-07-05,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-speech-during-a-regional-visit-to-the-north-east | From protectionism to prosperity - speech by Mark Carney | Given at the Northern Powerhouse Business Summit - Great Exhibition of the North
+2018-07-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2018-07-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-07-18,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-08-02,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-08-02,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2018-08-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2018-08-14,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-08-15,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-09-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2018-09-11,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-09-13,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-09-14,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-whitaker-lecture | The future of work - speech by Mark Carney | Given at the 2018 Whitaker Lecture, Central Bank of Ireland"
+2018-09-19,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-10-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2018-10-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-10-17,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-10-19,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-economic-club-of-new-york | True Finance – Ten years after the financial crisis - speech by Mark Carney | Given at Economic Club of New York
+2018-10-23,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-university-of-toronto-fourth-annual-conference | Slides from Mark Carney's speech at the Machine Learning and the Market for Intelligence C | AI and the Global Economy
+2018-10-29,15:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/budget-2018-documents (date official); START standard: statement after PMQs 15:30 (2018: Monday 15:30); documents published 16:44 (approx. end of statement)
+2018-11-01,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2018-11-01,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2018-11-02,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-remarks-at-the-science-museum-london | £50 character selection and Future Forum launch - remarks by Mark Carney | Given at the Science Museum, London"
+2018-11-09,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2018-11-13,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-11-14,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-11-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2018/mark-carney-princes-accounting-for-sustainability-summit | Remarks at the Accounting for Sustainability Summit 2018 by Mark Carney | Given at the Accounting for Sustainability Forum, St. James’s Palace London."
+2018-12-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2018-12-11,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2018-12-19,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2018-12-20,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-01-11,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-01-16,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-01-22,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-02-07,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-02-07,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2019-02-11,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-02-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech | The global outlook - speech by Mark Carney | Given at the Financial Times event in Frobisher Hall, the Barbican."
+2019-02-13,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-02-19,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-03-12,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-03-19,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-03-20,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-03-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech-at-european-commission-high-level-conference-brussels | A new horizon - speech by Mark Carney | European Commission High-Level Conference: A global approach to Sustainable Fina
+2019-03-21,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-03-28,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-investing-in-ethnicity-and-race-conference-2019-held-the-bank-of-england | Investing in Ethnicity & Race - speech by Mark Carney | Given at the Investing in Ethnicity & Race Conference 2019, Bank of England"
+2019-04-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-04-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-04-17,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-04-29,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech-at-innovate-finance-global-summit-2019 | A platform for innovation - remarks by Mark Carney | Given at the Innovate Finance Global Summit, London."
+2019-05-02,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-05-02,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2019-05-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-05-14,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-05-22,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-06-06,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-keynote-remarks-at-the-2019-institute-of-international-finance-spring-membership-meeting | Pull, push, pipes: sustainable capital flows for a new world order - speech by Mark Carney | Given at the 2019 Institute of International Finance Spring Membership Meeting, "
+2019-06-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-06-11,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-06-14,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-women-in-banking-and-finance-22nd-annual-awards | Finance by all, for all - remarks by Mark Carney | Given at Women in Banking and Finance 22nd Annual Awards, London"
+2019-06-18,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-panellist-at-the-ecb-forum-on-central-banking-2019 | Remarks by Mark Carney to Open Policy Panel | Given at ECB Forum on Central Banking 2019, Sintra"
+2019-06-19,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-06-20,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech-at-the-mansion-house-bankers-and-merchants-dinner | Enable, empower, ensure: a new finance for the new economy - speech by Mark Carney | Speech delivered at the Mansion House Bankers’ and Merchants’ Dinner, London"
+2019-06-20,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-07-02,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech-bournemouth-regional-visit | Sea change - speech by Mark Carney | Given at the Local Government Association Annual Conference and exhibition, Bour"
+2019-07-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-07-15,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/50-note-character-selection-announcement | £50 note character selection announcement - speech by Mark Carney | Given at Science and Industry Museum, Manchester"
+2019-07-16,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-07-17,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-08-01,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-08-01,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2019-08-09,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-08-13,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-08-14,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-08-23,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech-at-jackson-hole-economic-symposium-wyoming | The growing challenges for monetary policy in the current international monetary and finan | Given at the Jackson Hole Symposium 2019
+2019-09-09,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-09-10,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-09-18,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-09-19,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-09-24,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-remarks-at-united-nations-climate-action-summit-2019 | Remarks by Mark Carney given during the UN Secretary General’s Climate Action Summit 2019 | Remarks given on 23 September 2019 at the UN General Assembly, New York"
+2019-10-08,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-speech-at-climate-related-financial-disclosure-summit | TCFD: strengthening the foundations of sustainable finance - speech by Mark Carney | Given at the TCFD Summit 2019, Tokyo"
+2019-10-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-10-15,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-10-16,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-10-18,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-addressing-the-growing-challenges-in-the-international-monetary-and-financial-system | Addressing the Growing Challenges in the International Monetary and Financial System - sli | Slides presented by Mark Carney at the IMF Annual Meetings 2019
+2019-11-07,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2019-11-07,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2019-11-11,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-11-12,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-11-13,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-12-10,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-panellist-at-25-annual-conference-of-the-parties-madrid | Remarks by Mark Carney at a panel to launch the third annual America’s Pledge report, at t | Given at the US Climate Action Centre, Madrid"
+2019-12-10,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2019-12-17,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2019/mark-carney-remarks-at-the-ecb-farewell-board-dinner-for-benoit-coeure | Après Benoît le déluge? - speech by Mark Carney | Given at Benoît Cœure’s leaving reception at the European Central Bank, Frankfur"
+2019-12-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2019-12-18,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2019-12-19,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-01-09,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/mark-carney-opening-remarks-at-the-future-of-inflation-targeting-conference | A framework for all seasons? - speech by Mark Carney | Given at the Bank of England Research Workshop on The Future of Inflation Target
+2020-01-13,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-01-15,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2020-01-21,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-01-30,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-01-30,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2020-02-11,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-02-18,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-02-19,09:30,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London | TIME CORRECTED 07:00 -> 09:30: ONS moved market-sensitive releases from 09:30 to 07:00 only from 25 Mar 2020 (ons.gov.uk statement 23 Mar 2020); VWAP row had 07:00"
+2020-02-27,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/the-road-to-glasgow-speech-by-mark-carney | The road to Glasgow - speech by Mark Carney | Given at the launch of the ‘COP26 Private Finance Agenda’ at the Guildhall, Lond"
+2020-03-05,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/mark-carney-speech-at-university-college-london | The grand unifying theory (and practice) of macroprudential policy - speech by Mark Carney | Given at University College London
+2020-03-11,09:30,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-03-11,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/budget-2020-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30); documents published 13:37 (approx. end of statement)
+2020-03-17,09:30,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-03-25,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-03-26,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-04-09,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-04-21,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-04-22,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-05-07,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-05-07,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2020-05-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-05-19,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-05-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-06-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-06-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-06-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-06-18,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-07-13,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/andrew-bailey-speech-as-part-webinar-hosted-by-the-boe-and-the-frb-of-ny-libor-entering-the-endgame | LIBOR: entering the endgame - speech by Andrew Bailey | Given during a webinar hosted by the Bank of England and the Federal Reserve Ban
+2020-07-14,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-07-15,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-07-16,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/andrew-bailey-launch-of-money-and-me-schools-resource | Everyday economics: the importance of financial education post-Covid - speech by Andrew Ba | Launch of Money & Me schools resource in conjunction with Beano, Tes and Schools"
+2020-07-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-08-06,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-08-06,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2020-08-11,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-08-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-08-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-08-28,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/andrew-bailey-federal-reserve-bank-of-kansas-citys-economic-policy-symposium-2020 | The central bank balance sheet as a policy tool: past, present and future - speech by Andr | Given at the Jackson Hole Economic Policy Symposium"
+2020-09-03,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/andrew-bailey-speech-on-the-future-of-cryptocurrencies-and-stablecoins | Reinventing the wheel (with more automation) - speech by Andrew Bailey | Given at the Brookings Institution, Virtual Event"
+2020-09-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-09-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-09-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-09-17,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-10-09,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-10-13,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-10-21,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-11-05,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2020-11-05,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2020-11-09,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/andrew-bailey-speech-corporation-of-london-green-horizon-summit | The time to push ahead on tackling climate change - speech by Andrew Bailey | Given at the Corporation of London Green Horizon Summit, Mansion House"
+2020-11-10,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-11-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-11-17,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2020/andrew-bailey-the-cityuk-national-conference-2020 | The future for business investment in the age of Covid and the role of financial services  | Given at TheCityUK National Conference
+2020-11-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-12-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2020-12-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2020-12-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2020-12-17,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-01-15,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-01-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-01-26,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-02-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-02-04,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2021-02-05,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/february/andrew-bailey-lse-event-german-symposium | Modern challenges for the modern central bank: perspectives from the Bank of England - spe | Given at the LSE German Symposium
+2021-02-10,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/february/andrew-bailey-mansion-house | The case for an open financial system - speech by Andrew Bailey | Given at the Financial and Professional Services Address, Mansion House"
+2021-02-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-02-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-02-23,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-03-03,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/budget-2021-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30); documents published 13:26 (approx. end of statement)
+2021-03-08,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/march/andrew-bailey-speech-at-the-resolution-foundation | Getting over Covid - speech by Andrew Bailey | Given at the Resolution Foundation
+2021-03-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-03-18,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-03-23,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-03-24,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-03-25,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/march/andrew-bailey-unveil-of-the-alan-turing-50-polymer-banknote | Banknote character - speech by Andrew Bailey | Given at the unveil of the Alan Turing £50 polymer Banknote
+2021-04-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-04-20,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-04-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/april/andrew-bailey-keynote-speech-at-the-bank-of-england-virtual-event | Meeting varied people - speech by Andrew Bailey | Given at Diversity in Market Intelligence: Launching our Meeting Varied People I
+2021-04-21,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-05-06,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-05-06,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2021-05-11,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/may/andrew-bailey-a-moderated-discussion-with-john-williams-president-of-ny-fed | Descending safely: Life after Libor - speech by Andrew Bailey | Given at Alternative Reference Rates Committee – the SOFR symposium: The final y
+2021-05-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/may/andrew-bailey-international-swaps-and-derivatives-association | Taking our second chance to make MMFs more resilient - speech by Andrew Bailey | Given at the ISDA 35th Annual General Meeting
+2021-05-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-05-18,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-05-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-06-01,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/june/andrew-bailey-reuters-events-global-responsible-business-2021 | Tackling climate for real: the role of central banks - speech by Andrew Bailey | Given at Reuters Events Responsible Business 2021
+2021-06-03,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/june/andrew-bailey-bis-bank-of-france-imf-ngfs-green-swan-conference | Tackling climate for real: progress and next steps - speech by Andrew Bailey | Given at the BIS-BDF-IMF-NGFS Green Swan 2021 Global Conference
+2021-06-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-06-15,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/june/andrew-bailey-cityuk-annual-conference | Innovation to serve the public interest - speech by Andrew Bailey | Given at the City UK Annual Conference
+2021-06-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-06-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-06-24,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-07-01,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/july/andrew-bailey-speech-at-the-mansion-house-financial-professional-services-event | It’s a recovery, but not as we know it - speech by Andrew Bailey | Given at Mansion House"
+2021-07-09,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-07-14,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-07-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-08-05,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-08-05,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2021-08-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-08-17,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-08-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-09-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-09-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-09-15,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-09-23,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-09-27,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/september/andrew-bailey-guest-speaker-at-the-society-of-professional-economists-annual-dinner-2021 | The hard yards - speech by Andrew Bailey | Given at the Society of Professional Economists Annual Dinner
+2021-10-12,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-10-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-10-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-10-27,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/autumn-budget-and-spending-review-2021-documents (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30); documents published 13:38 (approx. end of statement)
+2021-11-03,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/november/andrew-bailey-speech-at-cop26-laying-the-foundations-for-a-net-zero-financial-system | Laying the Foundations for a Net Zero Financial System - speech by Andrew Bailey | Remarks at COP26
+2021-11-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2021-11-04,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2021-11-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-11-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-11-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-12-01,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2021/december/andrew-bailey-speech-at-the-ifoa-delivering-policyholder-protection-in-insurance-regulation | Reforming Solvency II: Delivering policyholder protection - speech by Andrew Bailey | Given at the Institute and Faculty of Actuaries
+2021-12-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2021-12-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2021-12-15,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2021-12-16,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-01-14,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-01-18,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-01-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-02-03,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-02-03,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2022-02-10,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2022/february/andrew-bailey-speech-at-thecityuk-annual-dinner | A resilient financial system - speech by Andrew Bailey | Given at the TheCityUK Annual Dinner
+2022-02-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-02-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-02-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-03-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-03-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-03-17,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-03-23,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-04-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-04-12,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-04-13,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-05-05,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-05-05,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2022-05-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-05-17,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-05-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-05-23,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2022/may/andrew-bailey-panellist-at-the-oesterreichische-national-bank-annual-economic-conference | Opening remarks at OeNB monetary policy panel by Andrew Bailey | Given at Oesterreichische Nationalbank, Annual Economic Conference, Vienna"
+2022-06-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-06-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-06-16,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-06-22,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-07-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2022/july/andrew-bailey-speech-at-omfif-the-economic-landscape | The economic landscape: structural change, global R * and the missing-investment puzzle −  | Given at the Official Monetary and Financial Institutions Forum"
+2022-07-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-07-19,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2022/july/andrew-bailey-speech-at-mansion-house-financial-and-professional-services-dinner | Bringing inflation back to the 2% target, no ifs no buts − speech by Andrew Bailey | Given at the Mansion House Financial and Professional Services Dinner"
+2022-07-19,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-07-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-08-04,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-08-04,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2022-08-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-08-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-08-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-09-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-09-13,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-09-14,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-09-22,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London; Sep 2022 postponed to 22 Sep 12:00 (BoE notice 'MPC announcement postponed')
+2022-10-11,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-10-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-10-15,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2022/october/andrew-bailey-opening-remarks-and-panellist-37th-annual-international-banking-seminar | Monetary policy and financial stability interventions in difficult times − speech by Andre | Given at G30 37th Annual International Banking Seminar, Washington, D.C"
+2022-10-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-11-03,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2022-11-03,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2022-11-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-11-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-11-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-12-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2022-12-13,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2022-12-14,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2022-12-15,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-01-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-01-17,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-01-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-02-02,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-02-02,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2023-02-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-02-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-02-15,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-03-01,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/march/andrew-bailey-speech-at-cost-of-living-crisis-conference-brunswick-group | The cost of living - speech by Andrew Bailey | Given at Brunswick Group’s Cost of Living Conference, Coin Street, London"
+2023-03-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-03-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-03-15,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/spring-budget-2023 (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30); documents published 13:33 (approx. end of statement)
+2023-03-22,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-03-23,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-03-27,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/march/andrew-bailey-speech-at-london-school-of-economics | Supply matters − speech by Andrew Bailey | Given at London School of Economics
+2023-04-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/april/andrew-bailey-remarks-at-the-institute-of-international-finance | Monetary and financial stability: lessons from recent times - speech by Andrew Bailey | Given at the Institute of International Finance
+2023-04-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-04-18,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-04-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-05-11,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-05-11,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2023-05-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-05-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-05-17,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/may/andrew-bailey-keynote-speech-british-chambers-of-commerce-global-annual-conference | Getting inflation back to the 2% target − speech by Andrew Bailey | Given at British Chamber of Commerce Annual Conference
+2023-05-24,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-06-13,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-06-14,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-06-21,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-06-22,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-07-10,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/july/andrew-bailey-speech-at-the-financial-and-professional-services-dinner | New prospects for money - speech by Andrew Bailey | Speech given in London
+2023-07-11,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-07-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-07-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-08-03,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-08-03,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2023-08-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-08-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-08-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-09-12,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-09-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-09-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-09-21,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-10-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-10-17,07:00,Europe/London,GBP,UK_LABOUR,,n/a,"ONS statement 13 Oct 2023 (partial rescheduling): earnings, vacancies and RTI payrolls kept 17 Oct 07:00; LFS + claimant count to 24 Oct"
+2023-10-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-10-24,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases; LFS + claimant count moved from 17 Oct (ONS statement 13 Oct 2023)
+2023-11-02,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-11-02,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2023-11-08,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/november/andrew-bailey-keynote-address-at-the-central-bank-of-ireland | Openness beats fragmentation - speech by Andrew Bailey | Given at the Central Bank of Ireland’s 2nd Financial Services Conference, Dublin"
+2023-11-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-11-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-11-15,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2023-11-20,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/november/andrew-bailey-2023-henry-plumb-memorial-lecture | A measure of wheat for a penny: food price inflation in historical perspective - speech by | Given at the Henry Plumb Memorial Lecture
+2023-11-29,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2023/november/andrew-bailey-remarks-at-the-50-year-anniversary-of-the-london-fxjsc | Opening remarks at the 50th anniversary of the London Foreign Exchange Joint Standing Comm | Given at FXJSC 50th Anniversary event held at the Bank of England, London"
+2023-12-12,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2023-12-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2023-12-14,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2023-12-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-01-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-01-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-01-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-02-01,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-02-01,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2024-02-12,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/february/andrew-bailey-lecture-at-loughborough-university | Loughborough lecture: Banking today - speech by Andrew Bailey | Given at Loughborough Business School, Loughborough University"
+2024-02-13,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-02-14,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-02-15,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-03-06,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/spring-budget-2024 (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30)
+2024-03-12,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-03-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-03-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-03-21,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-04-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-04-16,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-04-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-05-09,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-05-09,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2024-05-10,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-05-14,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-05-21,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/may/andrew-bailey-lecture-london-school-of-economics-charles-goodhart | The importance of central bank reserves - lecture by Andrew Bailey | Lecture in honour of Charles Goodhart, London School of Economics"
+2024-05-22,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-06-11,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-06-12,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-06-19,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-06-20,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-07-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-07-17,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-07-18,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-08-01,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-08-01,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2024-08-13,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-08-14,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-08-15,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-08-23,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/august/andrew-bailey-speech-federal-reserve-bank-of-kansas-annual-jackson-hole-economic-policy-symposium | Reflecting on recent times – speech by Andrew Bailey | Given at The Federal Reserve Bank of Kansas 2024 Economic Symposium, Jackson Hol"
+2024-09-10,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-09-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-09-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-09-19,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-10-11,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-10-15,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-10-16,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-10-22,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/october/andrew-bailey-keynote-address-at-the-bloomberg-global-regulatory-forum | Today’s challenges in Financial Stability: the new and the not so new - speech by Andrew B | Given at Bloomberg Regulatory Forum, New York"
+2024-10-24,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/october/andrew-bailey-mike-gill-memorial-lecture | Michael D. Gill Memorial Society Lecture − Andrew Bailey | Given at CFTC, Washington"
+2024-10-26,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,"START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/october/andrew-bailey-panellist-at-the-g30-39-annual-international-banking-seminar | The future of money and payments - speech by Andrew Bailey | Given at Group of Thirty’s 39th Annual International Banking Seminar, Washington"
+2024-10-30,12:30,Europe/London,GBP,UK_BUDGET,,assumed,gov.uk/government/publications/autumn-budget-2024 (date official); START standard: statement after PMQs 12:30 (2018: Monday 15:30)
+2024-11-07,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London
+2024-11-07,12:30,Europe/London,GBP,BOE_MPR_PRESSER,,assumed,"decision date official (BOE_RATE); MPR quarter (Feb/May/Aug/Nov, Jan in 2020) from BoE publication pattern, not read per date; press conference 12:30"
+2024-11-12,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-11-14,,Europe/London,GBP,BOE_GOV_SPEAKS,,assumed,START not published (BoE page gives date only): bankofengland.co.uk/speech/2024/november/andrew-bailey-speech-at-the-annual-financial-and-professional-services-dinner | Growth − speech by Andrew Bailey | Given at the Mansion House Financial and Professional Services Dinner
+2024-11-15,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-11-20,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-12-13,07:00,Europe/London,GBP,UK_GDP,,n/a,ons.gov.uk gdpmonthlyestimateuk/previousreleases
+2024-12-17,07:00,Europe/London,GBP,UK_LABOUR,,n/a,ons.gov.uk uklabourmarket/previousreleases
+2024-12-18,07:00,Europe/London,GBP,UK_CPI,,n/a,"VWAP tools/data/news_dates.csv: ons.gov.uk CPI previous releases (pages 1-11) + release calendar Oct-Dec 2026, 07:00 London"
+2024-12-19,12:00,Europe/London,GBP,BOE_RATE,,n/a,VWAP tools/data/news_dates.csv: bankofengland.co.uk MPC date announcements 2018-2026 + summaries; 12:00 London

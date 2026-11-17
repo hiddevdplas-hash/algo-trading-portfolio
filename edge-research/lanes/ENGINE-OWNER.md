@@ -15,8 +15,15 @@
 8. **5 referee strategies**, in Python and as self-contained cBots in `cTrader-Bots/`, plus a run list for the user (tick mode, IC, 3–6 months each). Comparison ≥ 99% identical trade lists.
 9. **Random-strategy generator** and the null calibration batch (DESIGN §8).
 10. **Look-ahead reviewer agent** wired into the queue: no review pass, no counted result.
+11. **Firm simulation** (DESIGN §10; later, not built yet). Includes FundingPips' whole-event news windows (DESIGN A6.4:
+    speeches, press conferences, testimony T−6 → end + 5 min; official end, else 90 / 90 / 210 min), already in
+    `engine.rules.event_window_fundingpips`; it can only remove FundingPips eligibility.
+12. **Calendar export for the live cBots** (after the calibration run): review the cBot side's proposal
+    `cTrader-Bots/common/proposals/export_calendar.py` (format `er-calendar v1`, `cTrader-Bots/CBOT-SIDE.md` §3; reads `engine.news`,
+    A6 rules in a header line) and its upcoming live dates `news/live/*.csv`; adopt into the engine or change it.
 
 ## Rules
 - **Generic engine:** no strategy-specific code in the kernel. A strategy that needs a new feature asks for it, and the feature is added for all strategies, with tests.
 - **Every change gets a new engine hash,** a LOG entry, and a note on which results it invalidates.
+- **Commit the ledger files** (`ledger/*.jsonl`) at the end of each batch and at least once a day; rows are never rewritten (a voided run stays in the ledger, marked void in LOG.md).
 - **Copy from VWAP's `tools/fastbt/`** (RULES.md fill rules, cTrader traps, NY clock, news filter) **without editing it there.**
